@@ -1,6 +1,29 @@
-button {
-  background: #ff0000;
-  &.blue {
-    background: #0000ff;
+div {
+  &:hover {
+    color: red;
+  }
+  :hover {
+    color: red;
+  }
+}
+p {
+  color: red;
+
+  span & {
+    color: blue;
+  }
+}
+
+div {
+  &::before {
+    color: red;
+  }
+}
+
+p {
+  color: red;
+
+  span && {
+    color: blue;
   }
 }
