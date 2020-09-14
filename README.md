@@ -1,2 +1,7 @@
 # scss-exec
-scssをコンパイルするだけのsandbox
+
+scss をコンパイルするだけの sandbox
+
+```
+npx node-sass index.scss
+```
